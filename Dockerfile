@@ -7,8 +7,8 @@ COPY . /tmp/kafka-manager
 
 RUN cd /tmp/kafka-manager && \
     ./sbt clean dist && \
-    unzip /tmp/kafka-manager/target/universal/kafka-manager-1.3.2.1.zip -d /tmp && \
-    mv /tmp/kafka-manager-1.3.2.1 /app
+    unzip /tmp/kafka-manager/target/universal/kafka-manager-1.3.3.4.zip -d /tmp && \
+    mv /tmp/kafka-manager-1.3.3.4 /app
 
 WORKDIR /app
 
